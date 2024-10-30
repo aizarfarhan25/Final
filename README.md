@@ -67,6 +67,9 @@ The purpose of EasyTrip is to demonstrate proficiency in creating a responsive, 
    - **Name**: Aizar Farhan
    - **Experience**: Quality Assurance (_1 year_), expanding knowledge to front-end and back-end development.
 
+## 🔗 **Website Link**
+https://final-qw80friq1-aizar-farhans-projects.vercel.app
+
 ## 📫 **Contact**
 
 Feel free to reach out for opportunities, collaborations, or any feedback:
