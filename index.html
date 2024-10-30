@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the beauty of Indonesia - Wonderfull Indonesia, culture, and attractions"
+    />
+    <meta
+      name="keywords"
+      content="Indonesia tourism, cultural heritage, travel Indonesia"
+    />
+    <title>EasyTrip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <nav>
+          <a href="index.html"><img src="./Assets/easytrip.png" /></a>
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="#city">City</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+          <h1>
+            Indonesia, a land of endless beauty and breathtaking diversity
+          </h1>
+          <p>
+            Experience the magic of Indonesia, a country rich in culture,
+            tradition, and breathtaking natural beauty. From vibrant cities to
+            tranquil beaches, Indonesia has something for everyone to fall in
+            love with. <br />
+            Embark on an unforgettable adventure through Indonesia's diverse
+            wonders and let your journey begin by exploring our featured cities
+            below!
+          </p>
+          <a href="#city" class="btn">Discover more</a>
+        </div>
+      </section>
+
+      <!-- City -->
+      <section class="city" id="city">
+        <h1>Discover Iconic Cities of Indonesia</h1>
+        <p>
+          Indonesia is home to some of the most dynamic and culturally rich
+          cities in the world. In this section, you can explore the incredible
+          cities of Jakarta and Makassar. Learn about their history, immerse
+          yourself in the culture, and experience the unique attractions that
+          make each of these cities a must-visit destination.
+        </p>
+
+        <div class="city-list">
+          <div
+            class="city-card"
+            onclick="window.location.href='./Apps/Jakarta/Jakarta.html'"
+          >
+            <img src="./Assets/jakarta.jpg" alt="Jakarta" />
+            <div class="city-name">Jakarta</div>
+          </div>
+
+          <div
+            class="city-card"
+            onclick="window.location.href='./Apps/Makassar/Makassar.html'"
+          >
+            <img src="./Assets/makassar.jpg" alt="Makassar" />
+            <div class="city-name">Makassar</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us -->
+      <section class="contact" id="contact">
+        <div class="text-opening">
+          <h1>Contact Us</h1>
+          <h3>We'd Love to Hear From You!</h3>
+          <p>
+            If you have any questions, suggestions, or would like more
+            information about exploring Indonesia, feel free to reach out to us
+            using the form below.
+          </p>
+        </div>
+
+        <div class="form-container">
+          <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <label for="feedback"
+              >Send me an email reciept of my responses</label
+            >
+            <input type="checkbox" id="feedback" name="feedback" value="yes" />
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <!-- JS Script for menu bar and form -->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+
+        document
+          .getElementById("contactForm")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            document.getElementById("contactForm").reset();
+            location.reload();
+          });
+      </script>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <p>
+          Copyright 2024 -
+          <a href="https://github.com/aizarfarhan25" target="_blank"
+            >Aizar Farhan</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
