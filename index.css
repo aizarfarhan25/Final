@@ -100,7 +100,7 @@ nav img {
   transition: 0.5s;
 }
 
-@media (max-width: 678px) {
+@media only screen and (max-width: 678px) {
   nav {
     display: flex;
     padding: 2% 4%;
@@ -116,6 +116,10 @@ nav img {
     display: inline-block;
     padding: 2px 6px;
     position: relative;
+  }
+
+  .nav-links ul li a {
+    font-size: 13px;
   }
 
   .text-box h1 {
