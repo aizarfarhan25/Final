@@ -108,6 +108,7 @@ nav img {
     justify-content: space-between;
     align-items: center;
   }
+  
   nav img {
     width: 100px;
   }
@@ -200,8 +201,9 @@ nav img {
 .contact {
   background: #f5793b;
   padding: 40px;
-  display: flex;
-  flex-direction: column;
+  display: grid ;
+  justify-items: center;
+  /* flex-direction: column; */
   align-items: center;
 }
 

@@ -68,7 +68,7 @@ The purpose of EasyTrip is to demonstrate proficiency in creating a responsive, 
    - **Experience**: Quality Assurance (_1 year_), expanding knowledge to front-end and back-end development.
 
 ## 🔗 **Website Link**
-https://final-qw80friq1-aizar-farhans-projects.vercel.app
+https://final-hzlkonhw3-aizar-farhans-projects.vercel.app
 
 ## 📫 **Contact**
 
