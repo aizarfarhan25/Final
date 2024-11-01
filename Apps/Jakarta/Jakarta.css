@@ -119,6 +119,11 @@ nav img {
     padding: 2px 6px;
     position: relative;
   }
+
+  .nav-links ul li a {
+    font-size: 13px;
+  }
+  
   .text-box h1 {
     font-size: 28px;
   }

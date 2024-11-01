@@ -121,6 +121,10 @@ nav img {
     position: relative;
   }
 
+  .nav-links ul li a {
+    font-size: 13px;
+  }
+
   .text-box h1 {
     font-size: 28px;
   }
