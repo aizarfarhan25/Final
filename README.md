@@ -45,7 +45,7 @@ The purpose of EasyTrip is to demonstrate proficiency in creating a responsive, 
 
 ### **HTML Structure**
    - Semantic HTML tags (`<header>`, `<section>`, `<footer>`, `<nav>`, `<ul>`, `<li>`, `<a>`) are used to improve the document structure and accessibility.
-   - `<div>` and `<figure>` elements are used for image grouping and layout flexibility.
+   - `<div>` elements are used for image grouping and layout flexibility.
 
 ### **CSS Styling**
    - CSS is used for page styling, incorporating a color palette that enhances readability and visual appeal.
