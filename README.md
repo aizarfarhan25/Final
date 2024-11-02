@@ -69,7 +69,7 @@ The purpose of EasyTrip is to demonstrate proficiency in creating a responsive, 
 
 ## 🔗 **Website Link**
 
-[Website Link](https://easytrip-4507vthvg-aizar-farhans-projects.vercel.app)
+[Website Link](https://easytrip-iihjijw7y-aizar-farhans-projects.vercel.app)
 
 ## 📫 **Contact**
 
